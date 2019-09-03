@@ -92,7 +92,9 @@ static void	ft_init(int fd, t_bot **st, char *n)
 
 static void	usage(void)
 {
-	ft_putstr("How does asm work\n");
+	ft_putstr("Usage: ./asm [-a] mychampion.s\n 	-a : Instead of creating"
+	" a .cor file, outputs a stripped and annotated version of the code to "
+	"the standard output\n");
 	exit(0);
 }
 
